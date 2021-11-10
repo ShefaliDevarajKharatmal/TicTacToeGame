@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_wallpaper1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_marginTop="50sp"
+        android:background="#FFFFFF"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="Tic Tac Toe Game!"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80sp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/bu1"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:onClick="btnClick"
+            android:text=" " />
+
+        <Button
+            android:id="@+id/bu2"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:onClick="btnClick"
+            android:text=" " />
+
+        <Button
+            android:id="@+id/bu3"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:onClick="btnClick"
+            android:text=" " />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/bu4"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:onClick="btnClick"
+            android:text=" " />
+
+        <Button
+            android:id="@+id/bu5"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:onClick="btnClick"
+            android:text=" " />
+
+        <Button
+            android:id="@+id/bu6"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:onClick="btnClick"
+            android:text=" " />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/bu7"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:onClick="btnClick"
+            android:text=" " />
+
+        <Button
+            android:id="@+id/bu8"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:onClick="btnClick"
+            android:text=" " />
+
+        <Button
+            android:id="@+id/bu9"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:onClick="btnClick"
+            android:text=" " />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="100sp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnRestart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="btnClick"
+            android:text="Restart" />
+    </TableRow>
+
+
+</TableLayout>
